@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: o;
+  
+}
+body{
+    font-size: 1em;
+    background-color: #5e2129;
+    font-family: 'Roboto';
+  
+}
+
+#cabecalho{
+    background-color: #ffefd5;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin: auto;
+}
+.logocb{
+    width: 388px;
+    height: 136px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 450px;
+   
+}
+.lg{
+  margin-top: 150px;
+  margin-right: 0px;
+    float: right;
+   
+    
+}
+.linkcabeca , .nome{
+      padding: 15px;
+      
+     
+    
+      
+}
+.linkcabeca{
+    
+   
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.nome{
+    color: #5a0c0c;
+    font-size: 2.em;
+}
+
+
+/* formatacão dos links*/
+
+
+
+.link{
+    text-decoration:none ;
+    font-size: 20px;
+    margin: 30px;
+
+    
+    
+}
+#link1{
+    margin-left: 160px;
+}
+a:link,a:visited{
+    color: wheat;
+    padding: 5px 25px;
+   
+}
+a:hover{
+    font-weight: bolder;
+   
+    
+}
+/* paragrafos index*/
+.paragrafo1{
+    margin-top: 0px;
+    text-align: center;
+    padding: 40px;
+    color: rgb(134, 110, 62);
+}
+
+
+
+/* informação do index */
+
+#principal{
+    
+    width: 970px;
+    margin-top: 30px;
+    margin-left: 200px;
+
+}
+#imgcap{
+    padding: 40px;
+    width: 300px;
+    height:300px;
+    
+   
+}
+#postagem{
+    width: 100%;
+    float: left;
+
+    
+ 
+}
+#index{
+    background-color: rgb(77, 38, 38);
+    padding: 20px;
+}
+#pa{
+    text-align: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+#emergencia{
+   
+    text-align: center;
+    align-items: center;
+    margin-right: 30px;
+   
+    
+    
+   
+}
+h4{
+    margin: 20px;
+    font-size: 30px;
+    color: wheat;
+}
+p{
+    text-align: justify;
+    margin: 15px;
+    color:wheat;
+}
+#footer{
+    clear: both;
+    background-color: #ffefd5;
+    text-align: right;
+    color: #800000;
+    margin-top: 15px;   
+    padding: 10px;
+}
+#preenchimento{
+    background-color: rgb(241, 137, 68);
+    text-align: right;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+}
+/* botao */
+
+
+
+
+/* cadastro do acidente icones*/
+.cadastro{
+
+    text-align: center;
+    align-items: center;
+
+}
+#iconis{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}
+.icon{
+    text-decoration:none ;
+    background-color: #ccc;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 30;
+    margin: 20px;
+    cursor: pointer;
+    display: inline-block;
+    background:  rgb(238, 204, 182);
+    box-shadow: 5px 5px brown;
+    border-radius: 30px;
+}
+.icon:hover{
+    background: rgb(241, 137, 68);
+    color: white;
+}
+.icon:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+/* texte  msg*/
+
+
+
+.este{
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 250px;
+    margin-left: 320px;
+
+}
+.paragrafo{
+    color: wheat;
+    margin-top: 50px;
+   
+}
+
+
+/* botao2*/
+.buton{
+    
+    border: none;
+    padding: 30;
+    cursor: pointer;
+    display: inline-block;
+    background:   #deb887;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    
+    
+}
+.buton:hover{
+    background: #eec99a;
+    
+    
+}
+.buton:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.msgLateral{
+    float: right;
+    width: 600px;
+    margin-top: 40px;
+    margin-right: 30px;
+    
+   
+}
+.posisao{
+    
+    width: 100px;
+}
+.indici{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    color: rgb(243, 243, 243);
+}
+
+/* cotatos */
+table{
+  
+    margin-top: 40px;
+  
+    margin-bottom: 50px;
+}
+table, th, td {
+   
+    padding: 30px;
+    border-radius: 5px;
+    color:rgb(197, 164, 164);
+    background-color: #6d353c;
+}
+.prga{
+    margin-left: 500px;
+    margin-top: 30px;
+    color:rgb(197, 164, 164) ;
+}
+a{
+    text-decoration:none ;
+}
+ul{
+    color: wheat;
+    padding: 10px;
+}
+.parag{
+    color: rgb(248, 209, 135);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+h2{
+    color: rgb(151, 125, 77);
+    padding: 10px;
+}
+h3{
+    color: rgb(151, 125, 77);
+    padding: 10px;
+    text-transform: none;
+
+}
+.ficha{
+
+    margin-left: 60px;
+    margin-right: 50px;
+    background-color: #6d353c;
+    padding: 10px;
+    border-radius: 10px;
+}
+.igor{
+    padding: 40px;
+    margin-left: 160px;
+}
+#table{
+    background-color: #6d353c;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.esconde{
+    display: none;
+}
+button{
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 30px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #833640;
+    
+  
+   
+}
+
+button:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    border: none;
+
+}
+#emg{
+    text-align: center;
+    justify-content: center;
+    background-color: #66272f;
+    padding: 40px;
+}
+#cor1{
+    background-color: #833640;
+    padding: 50px;
+
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Elevator</title>
+        <meta  charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo/form.css">
+        <link rel="stylesheet" type="text/css" href="estilo/estilotrd.css">
+   </head>
+   <body>
+
+    
+    <div id="cabecalho" >
+      
+        
+      <img class="logocb" src="imagens/Monitory_NOVO1.png"alt="">
+      <a class="lg" href="formelevador.html" ><img src="imagens/brasil.png" width="50px" height="30px" alt=""></a>
+     
+    </div>
+    <nav class="linkcabeca">
+      <a class="link" id="link1" href="indextrd.html">Home</a> |
+      <a  class="link" href="emergenciatrd.html">Help</a> |
+      <a  class="link" href="cadastrotrd.html">Register</a> |
+      <a  class="link" href="conhecatrd.html">About us</a> |
+      <a  class="link" href="contatostrd.html">Contact</a>
+    </nav>
+           
+           <form action="">
+
+            <fieldset>
+               <legend>User info</legend>
+               <h5>OBS: "If you are already registered enter your registration number."</h5><br>
+               <div>
+                   <label for="nome">Name:</label>
+                   <input class="texto" type="text" name="nome" id="nome">
+             
+               </div>
+               <div >
+                 <br>
+                 <label for="matricula">Registration:</label>
+                 <input class="texto" type="text" name="matricula" id="matricula">
+               </div>
+               <div class="lado0">
+                 <label >Sex:</label><br>
+                 <input type="radio" name="sexo" value="M">Masculine<br>
+                 <input type="radio" name="sexo" value="F">Feminine<br>
+               </div>
+               <div class="lado1">
+                 <label >aproxximate age:</label><br>
+                 <input type="radio" name="idade" value="menor">Under 18 years<br>
+                 <input type="radio" name="idade" value="19a30">19 - 30 years<br>
+                 <input type="radio" name="idade" value="31a45">31 - 45 years<br>
+                 <input type="radio" name="idade" value="acima">Above 45 years<br>
+               </div>
+            </fieldset>
+
+            <fieldset>
+             <legend>Emergency location</legend>
+            
+             <div class="lado0">
+               <label >Bloc:</label><br>
+                 <select>
+                   <option>Select</option>
+                   <option>A</option>
+                   <option>B</option>
+                   <option>C</option>
+                   <option>D</option>
+                   <option>E</option>
+                   <option>F</option>
+                   <option>G</option>
+                   <option>H</option>
+                   <option>I</option>
+                   <option>J</option>
+                   <option>K</option>
+              
+                   <option>43</option>
+
+                 </select>
+             </div> 
+             <div class="lado1">
+               <label >Locations:</label><br>
+               <select>
+                 <option>Select</option>
+                 <option>Library</option>
+                 <option>Cofe</option>
+                 <option>Toilet</option>
+                 <option>Garden</option>
+                 <option>Courtyard</option>
+                 <option>Park</option>
+                 <option>Ordinace</option>
+                 <option>Chapel</option>
+               
+               </select>
+             </div>
+             <div class="lado2">
+               <label >Floor:</label><br>
+               <select>
+                 <option>Select</option>
+                 <option>Ground floor</option>
+                 <option>1</option>
+                 <option>2</option>
+                 <option>3</option>
+                 <option>4</option>
+                 <option>5</option>
+                 <option>6</option>
+                 <option>7</option>
+                 
+               
+               </select>
+             </div>
+             <div ><br>
+               <Label>OBS:</Label><br><br>
+               <textarea>
+
+               </textarea>
+               
+               </select>
+             </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Aditional info</legend>
+
+            <div class="info">
+<label >Infos: </label><br/>
+ <label for="cb1">Are you alone?</label>
+              <input type="checkbox" id="cb1" name="Só">
+ <label for="cb2">Someone fainted?</label>
+              <input type="checkbox" id="cb2" name="Desmaio">
+ <label for="cb3">Is someone in panic?</label>
+              <input type="checkbox" id="cb3" name="Sangramento">
+
+            </div>             
+         </fieldset>
+            
+          <input class="btnform" type="submit" value="Enviar!" >
+
+        </form>
+          
+    </body>
+    <footer id="footer">
+       
+      Copyright Monitory 2020. All rights reserved.
+    
+    </footer>
+</html>

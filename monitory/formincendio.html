@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>incendio</title>
+        <meta  charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo/form.css">
+        <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+   </head>
+   <body>
+
+    
+    <div id="cabecalho" >
+      
+        
+      <img class="logocb" src="imagens/Monitory_NOVO1.png"alt="">
+      <a class="lg" href="formincendiotrd.html" ><img src="imagens/america2.jpg" width="50px" height="30px" alt=""></a>
+     
+    </div>
+    <nav class="linkcabeca">
+      <a class="link" id="link1" href="index.html">Inicio</a> |
+    
+      <a  class="link" href="cadastro.html">Cadastrar</a> |
+      <a  class="link" href="conheca.html">Conheça-nos</a> |
+      <a  class="link" href="contatos.html">Contatos</a>
+    </nav>
+           <form action="">
+
+               
+            <fieldset>
+              <legend>Dados do necessitado</legend>
+              <h5>OBS: " Se ja tiver o cadastro basta preencher a matricula em Dados do Nessecitado! "</h5><br>
+              <div>
+                  <label for="nome">Nome:</label>
+                  <input class="texto" type="text" name="nome" id="nome">
+            
+              </div>
+              <div >
+                <br>
+                <label for="matricula">Matrícula:</label>
+                <input class="texto" type="text" name="matricula" id="matricula">
+              </div>
+              <div class="lado0">
+                <label >Sexo:</label><br>
+                <input type="radio" name="sexo" value="M">Masculino<br>
+                <input type="radio" name="sexo" value="F">Feminino<br>
+              </div>
+              <div class="lado1">
+                <label >Idade Aproximada:</label><br>
+                <input type="radio" name="idade" value="menor">menor que  18<br>
+                <input type="radio" name="idade" value="19a30">19 - 30<br>
+                <input type="radio" name="idade" value="31a45">31 - 45<br>
+                <input type="radio" name="idade" value="acima">acima de 45 anos<br>
+              </div>
+           </fieldset>
+
+
+               <fieldset>
+                <legend>Local da emergência</legend>
+               
+                <div class="lado0">
+                  <label >Bloco:</label><br>
+                    <select>
+                      <option>Selecionar</option>
+                      <option>A</option>
+                      <option>B</option>
+                      <option>C</option>
+                      <option>D</option>
+                      <option>E</option>
+                      <option>F</option>
+                      <option>G</option>
+                      <option>H</option>
+                      <option>I</option>
+                      <option>J</option>
+                      <option>K</option>
+                 
+                      <option>43</option>
+
+                    </select>
+                </div> 
+                <div class="lado1">
+                  <label >Locais especificos:</label><br>
+                  <select>
+                    <option>Selecionar</option>
+                    <option>biblioteca</option>
+                    <option>lanchonete</option>
+                    <option>banheiro</option>
+                    <option>jardin</option>
+                    <option>pátiu</option>
+                    <option>Estacionamento</option>
+                    <option>Portaria</option>
+                    <option>Capela</option>
+                  
+                  </select>
+                </div>
+                <div class="lado2">
+                  <label >Andar:</label><br>
+                  <select>
+                    <option>Selecionar</option>
+                    <option>Terrio</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    
+                  
+                  </select>
+                </div>
+                <div ><br>
+                  <Label>OBS:</Label><br><br>
+                  <textarea>
+
+                  </textarea>
+                  
+                  </select>
+                </div>
+             </fieldset>
+
+             <fieldset>
+              <legend>Informações adicionais</legend><br>
+
+              <div class="info">
+  <label >Informações: </label><br/>
+   <label for="cb1">Indício de incêndio</label>
+                <input type="checkbox" id="cb1" name="Indicio">
+   <label for="cb2">Fumaça</label>
+                <input type="checkbox" id="cb2" name="Fumaça">
+   <label for="cb3">Incêndio</label>
+                <input type="checkbox" id="cb3" name="Incendio">
+   <label for="cb4">Explosão</label>
+                <input type="checkbox" id="cb4" name="Explosao">
+
+              </div>
+              <div class="info2"><br/>
+  <label >Saúde:</label><br/>
+   <label for="cb5">Asfixia</label>
+                <input type="checkbox" id="cb5" name="Asfixia">
+   <label for="cb6">Queimadura</label>
+                <input type="checkbox" id="cb6" name="Queimadura">
+
+              </div>
+              
+           </fieldset>
+               
+             <input class="btnform" type="submit" value="Enviar!" >
+
+           </form>
+     
+         
+    </body>
+    <footer id="footer">
+       
+      Todos os direitos reservados ao criador do site!
+    
+    </footer>
+</html>

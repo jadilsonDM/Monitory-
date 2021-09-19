@@ -1,0 +1,145 @@
+
+/* começo do for*/
+fieldset{
+    padding: 1em;
+   border: none;
+    border-radius: 5px;
+    background-color: #682d35;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 900px;
+    font-weight: bolder;
+    
+    
+}
+legend{
+    font-weight: bolder;
+    background-color:#682d35;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(197, 164, 164);
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+.texto{
+    width: 60em; 
+}
+.lado0{
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 30px;
+    color:rgb(197, 164, 164);
+    padding: 5px;
+}
+.lado1{
+    margin-top: 15px;
+    float: right;
+    width: 300px;
+    margin-left: 30px;
+    color: rgb(197, 164, 164);
+}
+.lado2{
+    float: right;
+    margin-top: 15px;
+    margin-right: 160px;
+}
+.lado3{
+    float: right;
+    margin-top: 15px;
+    margin-right: 160px;
+}
+.lado4{
+    margin-top: 15px;
+    float: left;
+}
+.alergia{
+    float: right;
+    color: rgb(197, 164, 164);
+    margin-right: 160px;
+}
+
+.obs{
+    margin-top: 50px;
+  
+}
+.info{
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.info2{
+    margin-top: 15px;
+    float: right;
+    width: 300px;
+    margin-left: 30px;
+}
+#footer{
+    clear: both;
+    background-color: #ffefd5;
+    text-align: right;
+    color: white;
+    margin-top: 15px;   
+}
+textarea{
+    width: 20em;
+    height: 10em;
+}
+.btnform{
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background: #49272b;
+    color:wheat;
+    
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.btnform:hover{
+    background: #922727;
+    color: white;
+
+}
+.btnform:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+input{
+    background-color: #9c5861;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+label{
+   color: rgb(197, 164, 164);
+   padding: 5px;
+}
+option{
+    background-color:#9c5861 ;
+}
+textarea{
+    background-color: #9c5861;
+    border: none;
+    border-radius: 5px;
+}
+select{
+    background-color: #9c5861;
+    border: none;
+    color:rgb(197, 164, 164);
+    padding: 5px;
+}
+h5{
+    color: rgb(197, 164, 164);
+}
+.sangue{
+   margin: 10px;
+}
+  
